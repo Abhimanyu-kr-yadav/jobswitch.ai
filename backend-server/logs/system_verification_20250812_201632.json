@@ -1,0 +1,262 @@
+{
+  "timestamp": "2025-08-12T20:16:32.987206",
+  "overall_status": "critical",
+  "summary": {
+    "errors": 32,
+    "warnings": 4,
+    "checks_performed": 8
+  },
+  "errors": [
+    "Missing required package: psycopg2",
+    "Missing required package: python-jose",
+    "Missing required package: python-multipart",
+    "Failed to import app.main: No module named 'app'",
+    "Failed to import app.core.config: No module named 'app'",
+    "Failed to import app.core.auth: No module named 'app'",
+    "Failed to import app.core.database: No module named 'app'",
+    "Failed to import app.core.cache: No module named 'app'",
+    "Failed to import app.core.exceptions: No module named 'app'",
+    "Failed to import app.core.logging_config: No module named 'app'",
+    "Failed to import app.api.auth: No module named 'app'",
+    "Failed to import app.api.user: No module named 'app'",
+    "Failed to import app.api.jobs: No module named 'app'",
+    "Failed to import app.api.dashboard: No module named 'app'",
+    "Failed to import app.agents.base: No module named 'app'",
+    "Failed to import app.agents.job_discovery: No module named 'app'",
+    "Failed to import app.agents.skills_analysis: No module named 'app'",
+    "Failed to import app.agents.resume_optimization: No module named 'app'",
+    "Database model verification failed for app.models.user: No module named 'app'",
+    "Database model verification failed for app.models.job: No module named 'app'",
+    "Database model verification failed for app.models.resume: No module named 'app'",
+    "Database model verification failed for app.models.interview: No module named 'app'",
+    "Database model verification failed for app.models.networking: No module named 'app'",
+    "Database model verification failed for app.models.career_strategy: No module named 'app'",
+    "API structure verification failed: No module named 'app'",
+    "Agent verification failed for JobDiscoveryAgent: No module named 'app'",
+    "Agent verification failed for SkillsAnalysisAgent: No module named 'app'",
+    "Agent verification failed for ResumeOptimizationAgent: No module named 'app'",
+    "Agent verification failed for InterviewPreparationAgent: No module named 'app'",
+    "Agent verification failed for NetworkingAgent: No module named 'app'",
+    "Agent verification failed for CareerStrategyAgent: No module named 'app'",
+    "Configuration module verification failed: No module named 'app'"
+  ],
+  "warnings": [
+    "Missing optional package: openai",
+    "Missing optional package: boto3",
+    "Missing optional package: celery",
+    "Environment file .env not found"
+  ],
+  "detailed_results": {
+    "python_environment": {
+      "version": "3.9.6",
+      "executable": "E:\\work\\IBM-Hackathon\\jobswitch.ai\\backend-server\\.venv\\Scripts\\python.exe",
+      "platform": "win32",
+      "path": [
+        "E:\\work\\IBM-Hackathon\\jobswitch.ai\\backend-server\\deployment\\scripts",
+        "C:\\Python39\\python39.zip",
+        "C:\\Python39\\DLLs"
+      ]
+    },
+    "dependencies": {
+      "installed": {
+        "fastapi": "0.104.1",
+        "uvicorn": "0.24.0",
+        "sqlalchemy": "2.0.23",
+        "alembic": "1.13.1",
+        "pydantic": "2.5.0",
+        "redis": "5.0.1",
+        "requests": "2.31.0",
+        "passlib": "1.7.4",
+        "websockets": "15.0.1",
+        "pytest": "7.4.3",
+        "langchain": "0.0.350"
+      },
+      "missing_required": [
+        "psycopg2",
+        "python-jose",
+        "python-multipart"
+      ],
+      "missing_optional": [
+        "openai",
+        "boto3",
+        "celery"
+      ]
+    },
+    "application_modules": {
+      "importable": {
+        "app.main": "failed: No module named 'app'",
+        "app.core.config": "failed: No module named 'app'",
+        "app.core.auth": "failed: No module named 'app'",
+        "app.core.database": "failed: No module named 'app'",
+        "app.core.cache": "failed: No module named 'app'",
+        "app.core.exceptions": "failed: No module named 'app'",
+        "app.core.logging_config": "failed: No module named 'app'",
+        "app.api.auth": "failed: No module named 'app'",
+        "app.api.user": "failed: No module named 'app'",
+        "app.api.jobs": "failed: No module named 'app'",
+        "app.api.dashboard": "failed: No module named 'app'",
+        "app.agents.base": "failed: No module named 'app'",
+        "app.agents.job_discovery": "failed: No module named 'app'",
+        "app.agents.skills_analysis": "failed: No module named 'app'",
+        "app.agents.resume_optimization": "failed: No module named 'app'"
+      },
+      "failed_imports": [
+        [
+          "app.main",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.config",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.auth",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.database",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.cache",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.exceptions",
+          "No module named 'app'"
+        ],
+        [
+          "app.core.logging_config",
+          "No module named 'app'"
+        ],
+        [
+          "app.api.auth",
+          "No module named 'app'"
+        ],
+        [
+          "app.api.user",
+          "No module named 'app'"
+        ],
+        [
+          "app.api.jobs",
+          "No module named 'app'"
+        ],
+        [
+          "app.api.dashboard",
+          "No module named 'app'"
+        ],
+        [
+          "app.agents.base",
+          "No module named 'app'"
+        ],
+        [
+          "app.agents.job_discovery",
+          "No module named 'app'"
+        ],
+        [
+          "app.agents.skills_analysis",
+          "No module named 'app'"
+        ],
+        [
+          "app.agents.resume_optimization",
+          "No module named 'app'"
+        ]
+      ]
+    },
+    "database_models": {
+      "app.models.user": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "app.models.job": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "app.models.resume": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "app.models.interview": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "app.models.networking": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "app.models.career_strategy": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      }
+    },
+    "api_structure": {
+      "error": "No module named 'app'"
+    },
+    "agents": {
+      "JobDiscoveryAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "SkillsAnalysisAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "ResumeOptimizationAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "InterviewPreparationAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "NetworkingAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      "CareerStrategyAgent": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      }
+    },
+    "configuration": {
+      "settings_module": {
+        "status": "failed",
+        "error": "No module named 'app'"
+      },
+      ".env": {
+        "status": "missing"
+      },
+      ".env.example": {
+        "status": "exists"
+      },
+      "deployment/.env.production.example": {
+        "status": "exists"
+      }
+    },
+    "file_structure": {
+      "directories": {
+        "app": true,
+        "app/api": true,
+        "app/agents": true,
+        "app/core": true,
+        "app/models": true,
+        "app/integrations": true,
+        "tests": true,
+        "logs": true,
+        "deployment": true
+      },
+      "files": {
+        "app/main.py": true,
+        "requirements.txt": true,
+        "README.md": true,
+        "deployment/docker-compose.prod.yml": true,
+        "deployment/Dockerfile.prod": true
+      }
+    }
+  },
+  "recommendations": [
+    "Fix all critical errors before deployment",
+    "Install missing required packages: psycopg2, python-jose, python-multipart",
+    "Fix module import errors"
+  ]
+}

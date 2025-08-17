@@ -1,0 +1,47 @@
+{
+  "startup_start_time": "2025-08-17T05:16:48.502872",
+  "current_time": "2025-08-17T05:17:01.486610",
+  "elapsed_time": 12.983738,
+  "current_phase": "core_infrastructure",
+  "phases": {
+    "core_infrastructure": {
+      "phase": "core_infrastructure",
+      "start_time": "2025-08-17T05:16:49.383147",
+      "end_time": "2025-08-17T05:16:49.497451",
+      "duration": 0.114304,
+      "success": true,
+      "error_count": 1,
+      "warning_count": 2,
+      "errors": [
+        "Test error message"
+      ],
+      "warnings": [
+        "Test warning message",
+        "Dependency test_redis not available"
+      ],
+      "sub_steps": {
+        "init_test_component": {
+          "duration": 1.5,
+          "success": true,
+          "details": {
+            "version": "1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "global_errors": [
+    "Test error message"
+  ],
+  "global_warnings": [
+    "Test warning message",
+    "Dependency test_redis not available"
+  ],
+  "dependency_checks": {
+    "test_database": true,
+    "test_redis": false
+  },
+  "performance_metrics": {
+    "init_test_component": 1.5
+  }
+}

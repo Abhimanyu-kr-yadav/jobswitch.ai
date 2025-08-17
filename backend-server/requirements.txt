@@ -1,0 +1,64 @@
+# FastAPI and web framework dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database dependencies
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# HTTP client dependencies
+aiohttp==3.9.1
+requests==2.31.0
+
+# AI and ML dependencies
+langchain==0.0.350
+langchain-community==0.0.10
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+PyJWT==2.8.0
+bcrypt==4.1.2
+
+# Caching (optional)
+redis==5.0.1
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-xdist==3.5.0
+httpx==0.25.2
+psutil==5.9.6
+coverage==7.3.2
+factory-boy==3.3.0
+faker==20.1.0
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.25.2
+
+# Web scraping (for job board integration)
+beautifulsoup4==4.12.2
+selenium==4.16.0
+
+# Email functionality
+aiosmtplib==3.0.1
+email-validator==2.1.0
+
+# File processing
+python-docx==1.1.0
+PyPDF2==3.0.1
+
+# Async utilities
+asyncio-mqtt==0.16.1

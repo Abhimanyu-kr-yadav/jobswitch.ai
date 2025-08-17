@@ -1,0 +1,1 @@
+# Testing framework for JobSwitch.ai AI Career Copilot

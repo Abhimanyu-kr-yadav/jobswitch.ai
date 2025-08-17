@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "export_id": "export_integration_test_user_20250810_153722",
+    "user_id": "integration_test_user",
+    "export_date": "2025-08-10T15:37:22.929876",
+    "export_format": "json",
+    "total_records": 0,
+    "tables_exported": 0,
+    "gdpr_compliant": true,
+    "data_retention_notice": "This export contains all your personal data stored in JobSwitch.ai as of the export date."
+  },
+  "data": {
+    "users": {
+      "error": "(sqlite3.OperationalError) no such table: users\n[SQL: SELECT * FROM users WHERE id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    },
+    "user_skills": {
+      "error": "(sqlite3.OperationalError) no such table: user_skills\n[SQL: SELECT * FROM user_skills WHERE user_id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    },
+    "resumes": {
+      "error": "(sqlite3.OperationalError) no such table: resumes\n[SQL: SELECT * FROM resumes WHERE user_id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    },
+    "interview_sessions": {
+      "error": "(sqlite3.OperationalError) no such table: interview_sessions\n[SQL: SELECT * FROM interview_sessions WHERE user_id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    },
+    "networking_campaigns": {
+      "error": "(sqlite3.OperationalError) no such table: networking_campaigns\n[SQL: SELECT * FROM networking_campaigns WHERE user_id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    },
+    "career_roadmaps": {
+      "error": "(sqlite3.OperationalError) no such table: career_roadmaps\n[SQL: SELECT * FROM career_roadmaps WHERE user_id = ?]\n[parameters: ('integration_test_user',)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "records": [],
+      "count": 0
+    }
+  }
+}

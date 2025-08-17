@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug FastAPI Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_server.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Debug Authentication Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_step_by_step.py",
+            "args": ["auth"],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Debug Models Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_step_by_step.py",
+            "args": ["models"],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Debug Specific File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}
